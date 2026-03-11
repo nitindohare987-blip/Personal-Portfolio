@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nitin | Developer Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <div class="logo"> नि<span style="color: rgb(145, 149, 170);">T</span>in.Dev</div>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-left">
+        <h1>Hello, I'm <span>Nitin</span></h1>
+        <p>I am a passionate <span id="element"></span></p>
+
+        <div class="buttons">
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="#projects" class="btn-outline">View Projects</a>
+        </div>
+    </div>
+
+    <div class="hero-right">
+        <img src="certified-zoho-developer (1).png" alt="developer">
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        I'm a passionate web developer who loves building modern, responsive,
+        and user-friendly websites. I enjoy turning ideas into real-world projects
+        using HTML, CSS, JavaScript and C++.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">C++</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Modern personal portfolio with animations.</p>
+        </div>
+        <div class="project-card">
+            <h3>To-Do App</h3>
+            <p>Task management app with local storage.</p>
+        </div>
+        <div class="project-card">
+            <h3>Weather App</h3>
+            <p>Weather forecast app using API integration.</p>
+        </div>
+    </div>
+</section>
+
+<!--connect-->
+<section class="connect">
+    <h2>Let's Connect</h2>
+
+    <div class="connect-buttons">
+        <a href="https://github.com/nitindohare987-blip" target="_blank" class="connect-btn">GitHub</a>
+        
+        <a href="https://www.linkedin.com/in/nitin-dohare-953403326/" target="_blank" class="connect-btn">LinkedIn</a>
+        
+        <a href="" target="_blank" class="connect-btn">Project Code</a>
+        
+        <a href="cv.pdf" download class="connect-btn cv-btn">Download CV</a>
+    </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: nitin@example.com</p>
+    <p>Phone: +91-9294789458 </p>
+</section>
+
+<footer>
+    <p>© 2026 Nitin | All Rights Reserved</p>
+</footer>
+
+<!-- Typed JS -->
+<script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+<script>
+var typed = new Typed('#element', {
+    strings: ['Web Developer','Graphic Designer','Web Designer'],
+    typeSpeed: 50,
+    backSpeed: 40,
+    loop:true
+});
+</script>
+
+</body>
+</html>
