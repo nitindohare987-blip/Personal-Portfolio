@@ -365,3 +365,66 @@ footer{
         text-align:center;
     }
 }
+
+@media screen and (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        padding:15px;
+    }
+
+    nav ul{
+        margin-top:10px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero{
+        flex-direction:column-reverse;
+        text-align:center;
+        padding:40px 20px;
+    }
+
+    .hero-left,
+    .hero-right{
+        width:100%;
+    }
+
+    .hero-left h1{
+        font-size:3rem;
+    }
+
+    .hero-left p{
+        font-size:1.2rem;
+    }
+
+    .hero-right img{
+        max-width:300px;
+    }
+
+    .buttons{
+        display:flex;
+        flex-direction:column;
+        gap:12px;
+        align-items:center;
+    }
+
+    .btn,
+    .btn-outline{
+        width:200px;
+        margin:0;
+    }
+
+    section{
+        padding:50px 20px;
+    }
+
+    section h2{
+        font-size:2rem;
+    }
+
+    .project-card{
+        width:100%;
+        max-width:320px;
+    }
+}
